@@ -1,11 +1,12 @@
 <div class="products-container">
-    <h1 class="products-title">Nossos Produtos</h1>
-    <div class="products-list">
-      <div class="product-card" *ngFor="let produto of produtos">
+  <h1 class="products-title">Espero que <span class="highlight-text">encontre</span> aqui</h1>
+  <div class="products-list">
+    <div class="product-card" *ngFor="let produto of produtos">
+      <div class="product-info">
         <h2 class="product-name">{{ produto.nome }}</h2>
         <p class="product-description">{{ produto.descricao }}</p>
-        <p class="product-price">Preço: {{ produto.preco | currency }}</p>
+        <a href="{{ produto.link }}" class="product-link" target="_blank">Veja</a>
       </div>
     </div>
   </div>
-  
+</div>

@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   featuredProducts = [
     {
-      name: 'Camisa Oficial',
-      description: 'Uniforme Mandante'
+      name: 'Camisa Oficial 24/25',
+      description: 'Camisa de Jogo 1'
     },
     {
-      name: 'Camisa Oficial',
-      description: 'Uniforme Visitante'
+      name: 'Camisa Oficial 24/25',
+      description: 'Camisa de Jogo 2'
     },
     {
-      name: 'Jaqueta Flamengo',
-      description: 'Jaqueta Viagem'
+      name: 'Camisa Retrô Masculina',
+      description: 'Flamengo Nike 2008-2009'
     }
   ];
 }
