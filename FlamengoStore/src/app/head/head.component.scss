@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(219, 20, 6);
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .navbar .logo img {
+    height: 80px; /* Ajuste conforme necessário */
+    width: auto;  /* Mantém a proporção da imagem */
+  }
+  
+  .navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
