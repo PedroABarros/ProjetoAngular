@@ -3,14 +3,14 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: rgb(219, 20, 6);
+    background-color: #c00009;
     color: #fff;
     padding: 0 20px;
   }
   
   .navbar .logo img {
     height: 80px; /* Ajuste conforme necessário */
-    width: auto;  /* Mantém a proporção da imagem */
+    padding-left: 20px;
   }
   
   .navbar nav ul {
@@ -31,6 +31,6 @@
   }
   
   .navbar nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: solid;
   }
   

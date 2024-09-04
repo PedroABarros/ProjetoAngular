@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FlamengoStore';
+  currentSection: string = 'home';
+
+  navigateTo(section: string) {
+    this.currentSection = section;
+  }
 }
